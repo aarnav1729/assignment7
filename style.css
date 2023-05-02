@@ -1,0 +1,64 @@
+body {
+	background-color: darkgrey;
+	font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.calculator {
+	width: 210px;
+	background-color: darkslategray;
+	border-radius: 10px;
+	padding: 10px;
+    grid-gap: 5px;
+    margin: 0 auto;
+}
+
+.calculator h1{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.display {
+	background-color: blanchedalmond;
+    width: 100%;
+    box-sizing: border-box;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 1.5em;
+}
+
+button {
+	width: 39px;
+	height: 39px;
+	margin: 5px;
+	border: none;
+	border-radius: 10px;
+	font-size: 1.2em;
+	cursor: pointer;
+    text-align: center;
+}
+
+.memory {
+	background-color: darkorchid;
+	color: black;
+}
+
+.clear {
+	background-color: red;
+	color: black;
+}
+
+.operator {
+	background-color: darkorange;
+	color: black;
+}
+
+.equals {
+	background-color: green;
+	color: black;
+}
